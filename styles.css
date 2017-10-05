@@ -10,9 +10,22 @@ body{
   yellow = #FEB652
   pink = #FD8C7A*/
 
-.navbar-default {
-  background-color: #FD8C7A !important;
+.navbar {
+  font-family: 'Open Sans', sans-serif;
+
 }
-.navbar-nav :hover{
-background-color: ;
+
+.nav-item{
+text-decoration: none !important;
+  padding: 2px;
+}
+
+.nav-item:hover {
+  background-color: #FEB652;
+}
+
+@media (max-width: 576px) {
+  .nav-item{
+    display: none;
+  }
 }
