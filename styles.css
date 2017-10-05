@@ -1,0 +1,18 @@
+/* reset styles*/
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* color palette
+  teal = #78F9DA
+  yellow = #FEB652
+  pink = #FD8C7A*/
+
+.navbar-default {
+  background-color: #FD8C7A !important;
+}
+.navbar-nav :hover{
+background-color: ;
+}
